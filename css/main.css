@@ -1,0 +1,425 @@
+#main .new-user{
+        margin-top: 30px;
+        height: 370px;
+        background: url(../img/new-people-img.png) center;
+        text-align: center;
+}
+
+#main .main-top{
+        height: 49px;
+        padding-top:25px;
+        margin-top:36px ;
+        border-top: 1px solid #e9e9e9;
+        display: flex;
+        justify-content: space-between;
+}
+
+#main .main-top .main-top-left{
+        display: flex;
+}
+
+#main .main-top .main-top-lef h2{
+        font-size: 22px;
+        color: #333;
+}
+
+#main .main-top .main-top-left span{
+        margin-top: 4px;
+        margin-left: 12px;
+        color: #999;
+        font-size: 15px;
+}
+
+#main .main-top .main-top-left span i{
+        font-size: 14px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #ff080f;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+}
+
+#main .main-top .main-top-left span em{
+        font-size: 14px;
+        margin: 0 2px;
+        font-weight: bold;
+}
+
+#main .main-top .main-top-right a{
+        color: #999;
+        font-size: 15px;
+}
+
+#main .limit-cartage {
+        height: 380px;
+        background-color: yellowgreen;
+        border-top: 1px solid #eaeaea;
+        border-left: 1px solid #eaeaea;
+}
+
+#main .limit-cartage .item1{
+        width: 419px;
+        height: 190px;
+        float: left;
+        border-right: 1px solid #eaeaea;
+        border-bottom: 1px solid #eaeaea;
+        background-color: #fff;
+}
+#main .limit-cartage .item2{
+        width: 259px;
+        height: 381px;
+        background-color: #fff;
+        float: right;
+        border-right: 1px solid #eaeaea;
+        border-bottom: 1px solid #eaeaea;
+}
+
+#main .limit-cartage .item1 img{
+        float: left;
+}
+
+#main .limit-cartage .item1 .content{
+        display: inline-block;
+        color: #f00;
+        height: 205px;
+        width: 200px;
+        padding-top: 15px;
+}
+
+#main .limit-cartage .item1 
+.content .title a{
+        color:#333;
+        font-size: 16px;
+        font-weight: 700;
+}
+
+#main .limit-cartage .item1 
+.content .desc {
+        margin-top: 14px;
+}
+
+#main .limit-cartage .item1 
+.content .desc a{
+        color: #999;
+}
+
+#main .limit-cartage .item1 
+.content .price{
+        margin-top: 5px;
+}
+
+#main .limit-cartage .item1 
+.content .price .new-price{
+        font-size: 20px;
+        font-weight: 700;
+        color: #ff080f;
+
+}
+
+#main .limit-cartage .item1 
+.content .price .old-price{     
+        font-size: 15px;
+        color: #999;
+        text-decoration: line-through;
+        margin-left: 8px
+}
+
+#main .limit-cartage .item1 
+.content .counter{
+        display: flex;
+        justify-content: space-between;
+        margin-top:20px;
+       
+}
+
+#main .limit-cartage .item1 
+.content .counter {
+        height: 40px;
+}
+
+#main .limit-cartage .item1 
+.content .counter .left{
+        font-size: 14px;
+        color: #ff1e32;
+        line-height: 40px;
+}
+
+#main .limit-cartage .item1 
+.content .counter .right{
+        width: 82px;
+        height: 38px;
+        border: 1px solid #ff1e32;
+        border-radius: 36px;
+        line-height: 38px;
+        text-align: center;
+        font-size: 14px;
+        color: #ff1e32;
+}
+
+#main .limit-cartage .item2 img{
+        height:381px;;
+} 
+
+#main .hot-cartage{
+        height: 354px;
+        border-top: 1px solid #e9e9e9;
+        border-left: 1px solid #e9e9e9;
+}
+
+#main .hot-cartage .item-first{
+        float: left;
+        height: 353px;
+        width: 217px;
+        background-color: #fff;
+}
+
+#main .hot-cartage .item-first img{
+        width: 217px;
+        height: 219px;
+        vertical-align: top;
+        margin-top: -1px;
+}
+
+#main .hot-cartage .item{
+        float: left;
+        width: 219px;
+        height: 176px;
+        background-color: #fff;
+        border-right: 1px solid #e9e9e9;
+        border-bottom: 1px solid #e9e9e9;
+}
+
+#main .hot-cartage .desc{
+        height: 134px;
+        background-color: #151515;
+        color: #fff;
+        text-align: center;
+        border-top: 1px solid red;
+        position: relative;
+}
+
+#main  .hot-cartage .desc .info{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+#main  .hot-cartage .desc .info div{
+        font-size: 20px;
+        font-weight: 700;
+}
+
+#main  .hot-cartage .desc .info p{
+        font-size: 14px;
+        margin-top: 5px;
+}
+
+#main .hot-cartage .item {
+        position:relative;
+        width: 217px;
+        height: 177px;
+}
+
+#main .hot-cartage .item .brand{
+        margin-top:10px;
+}
+
+#main .hot-cartage .item img{
+        display: block;
+        margin: 0 auto;
+        order: none;
+        /* position: absolute;
+        left: 50%;
+        transform:translate(-50%,0) ; */
+        transition:all .3s linear;
+        transform-origin: top center;
+
+}
+
+#main .hot-cartage .item .title{
+        font-size: 14px;
+        margin-top: 8px;
+        font-weight: 700;
+        text-align: center;
+        color: #333;
+        transition: all 50ms linear;
+}
+
+
+#main .hot-cartage .item:hover img{
+        transform: scale(.7);
+}
+
+#main .hot-cartage .item:hover .title{
+        transform:scale(0);
+}
+
+#main .hot-cartage .item:hover .attention{
+        transform:display;
+        display: inline-block;
+}
+
+#main .hot-cartage .item:hover .content{
+        transform:display;
+        display: inline-block;
+}
+
+#main .hot-cartage .item:hover .enter{
+        transform:display;
+        display: inline-block;
+}
+
+
+#main .hot-cartage .item .attention{
+        color: #999;
+        border:1px solid #999 ;
+        border-radius: 30px;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+        vertical-align: middle;
+        top:5px;
+        left:3px;
+        position: absolute;
+        display: none;
+        transition:transform .3s linear;
+}
+
+#main .hot-cartage .item .content{
+        left: 50%;
+        transform:translate(-50%);
+        color: #999;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        vertical-align: middle;
+        top:60%;
+        position: absolute;
+        display: none;
+        transition:transform .3s linear;
+}
+
+#main .hot-cartage .item .enter{
+        left: 50%;
+        transform:translate(-50%);
+        color: #999;
+        width: 70px;
+        height: 35px;
+        color:#ff1e32 ;
+        border:2px solid #ff1e32 ;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 35px;
+        bottom:5%;
+        position: absolute;
+        display: none;
+        transition:transform .3s linear;
+}
+
+#main .main-top .beauty-nav{
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        height: 31px;
+        font-size: 14px;
+        font-family: 700;
+        line-height: 31px;
+
+}
+
+#main .main-top .beauty-nav .active{
+        color: #ff1e32;
+} 
+
+#main .beauty-cartage{
+        height: 542px;
+        
+        border-top: 1px solid #e9e9e9;
+        border-left: 1px solid #e9e9e9;
+}
+
+#main .beauty-cartage .item1{
+        position: relative;
+        float: left;
+        height: 541px;
+        width: 330px;
+        background-color: #fff;
+        border-bottom: 1px solid #e9e9e9;
+        border-right: 1px solid #e9e9e9;
+}
+
+#main .beauty-cartage .item1 .big-tag{
+        position: absolute;
+        bottom:20px;
+        justify-content: space-evenly;
+        display: flex;
+        width: 330px;
+        height: 108px;
+        flex-wrap: wrap;
+}
+
+#main .beauty-cartage .item1 .small-tag{
+    display: inline-block;
+    width: 82px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+}
+
+
+#main .beauty-cartage .item2{
+        float: left;
+        width: 275px;
+        height: 270px;
+        background-color: #fff;
+        border-bottom: 1px solid #e9e9e9;
+        border-right: 1px solid #e9e9e9;
+        text-align: center;
+}
+
+
+#main .beauty-cartage .item2 img{
+        margin-top: 20px;
+}
+
+#main .beauty-cartage .item2 h2{
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 20px;
+}
+
+#main .beauty-cartage .item2 p{
+        font-size: 14px;
+        margin-top: 6px;
+}
+
+
+#main .beauty-cartage .item3{
+        background-color: #fff;
+        float: right;
+        width: 216px;
+        height: 541px;
+        border-bottom: 1px solid #e9e9e9;
+        border-right: 1px solid #e9e9e9;
+        
+}
+
+#main .beauty-cartage .item3 .top{
+        height: 57px;
+        border-bottom: 1px solid #e9e9e9;
+}
+#main .beauty-cartage .item3 .content{
+        height: 120px;
+        border-bottom: 1px dashed #e9e9e9;
+}
+
+
+
+

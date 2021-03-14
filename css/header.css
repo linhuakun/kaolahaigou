@@ -1,0 +1,188 @@
+#header .header-ad img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+}
+
+#header .header-nav{
+    height: 30px;
+    width: 100%;
+    background-color: #333;
+
+}
+
+#header .header-nav .wrap{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .header-nav .wrap .left,
+#header .header-nav .wrap .right
+{
+    display: flex;
+    line-height: 30px;
+    height: 30px;
+    color: #999;
+    position: relative;
+}
+
+#header .header-nav .wrap .left a{
+    margin-left: 30px;
+    color: #999;
+}
+
+#header .header-nav .wrap .left a:hover{
+    color: #fff;
+}
+#header .header-nav .left-last{
+   position: relative;
+}
+
+#header .header-nav .left  .left-last img{
+    position: absolute;
+    top:30px;
+    left: 50%;
+    transform:translate(-50%,0);
+    z-index: 999;
+    display: none;
+} 
+
+#header .header-nav .left  .left-last:hover img{
+    display: block;
+}
+
+#header .header-nav .wrap .right a{
+    margin-left: 15px;
+    color: #999;
+}
+
+#header .header-nav .wrap .right a:hover{
+    color: #fff;
+}
+
+#header .header-nav .wrap .right .item3{
+    width: 74px;
+    text-align: center;
+}
+
+#header .header-nav .wrap .right .item4{
+    width: 44px;
+    text-align: center;
+}
+
+#header .header-nav .wrap .right .item3 i{
+    position: relative;
+    top:-1px;
+    left: 4px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 6px solid #ff1e32;
+    border-left: 6px solid transparent;
+    transform: rotate(135deg);
+    transform-origin:center 2px;
+    transition:all 300ms ease-in;
+}
+#header .header-nav .wrap .right .item3:hover i{ 
+    transform: rotate(315deg);
+}
+
+#header .header-nav .wrap .right .item3:hover{
+    background-color: #fff;
+    color: #ff1e32;
+}
+
+#header .header-controller{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#header .header-controller .left a{
+    height: 100px;
+}
+
+#header .header-controller .left img {
+    position: relative;
+    top:50%;
+    transform: translate(0,-50%);
+}
+
+#header .header-controller .center {
+    position: relative;
+    height: 38px;
+    width: 469px;
+    background-color: #fff;
+    border-radius: 40px;
+    border: 2px solid #ff1e32;
+    margin: auto 0;
+}
+
+#header .header-controller .center input{
+    position: relative;
+    width: 400px;
+    height: 28px;
+    top: 50%;
+    left: 5px;
+
+    transform: translate(0,-50%);
+}
+#header .header-controller .center label{
+
+}
+
+#header .header-controller .center label i{
+    position: relative;
+    background-image: url(../img/kl-sprite-01.png);
+    background-position: -466px -667px;
+    left: 2px;
+    top: 7px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+}
+
+#header .header-controller .center .search-bar{
+    position: absolute;
+    width: 69px;
+    height: 40px;
+    border-radius: 40px;
+    background: url(../img/icon-search.png) no-repeat center center #ff2337;
+    right: 0px;
+    top: -1px;
+}
+
+#header .header-controller .right{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    margin-right: 60px;
+    text-align: center;
+    height: 36px;
+    width: 110px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: 2px solid #ff1e32;
+}
+
+#header .header-controller  .right .font-position{
+    position: absolute;
+    font-size: 14px;
+    line-height: 40px;
+    right:20px;
+}
+
+
+#header .header-controller  .right i{
+    position: absolute;
+    top: 50%;
+    left:20px;
+    transform: translate(0,-50%);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/shopcart-icon.png);
+}
+
